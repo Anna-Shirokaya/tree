@@ -182,6 +182,6 @@ test('the file should not be created due to missing permissions', async () => {
       expect(error.message).toBe('Function did not throw an error as expected');
     }
   });
-//проверка при недопустимом имени файла
+//проверка при недопустимом имени файлов
 //Попробуйте записать елочку в файл на максимальной доступной длине пути к файлу.
 //проверка, что количество строк в записываемом файле верное
