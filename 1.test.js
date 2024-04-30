@@ -67,7 +67,7 @@ test('a string instead of a number', async () => {
       // Проверяем, что полученное исключение является экземпляром Error
       expect(error).toBeInstanceOf(Error);
       // Проверяем, что сообщение об ошибке соответствует ожидаемому
-      expect(error.message).toBe('Параметр height должен быть положительным целым числом');
+      expect(error.message).toBe('Параметр height должен быть положительным целым числом89');
     }
   });
 
